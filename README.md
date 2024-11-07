@@ -11,7 +11,7 @@ Jeeves can run at startup by placing a shortcut to jeeves.ahk in the startup fol
 
 Configuration is super simple. In the jeeves.ini file, you'll see two sections: [SearchEngines] and [Settings]
 
-[SearchEngines] is where you define search URLs. This doesn't have to be limited to search engines like Google or Duck Duck Go. Any site that passes search information via URL parameters can be used by replacing the search term with {query], as in this example:
+[SearchEngines] is where you define search URLs. This doesn't have to be limited to search engines like Google or Duck Duck Go. Any site that passes search information via URL parameters can be used by replacing the search term with {query], as in this example, which is in the format of KEYWORD=URL{query}:
 
 ddg=https://duckduckgo.com/?q={query}
 
@@ -21,9 +21,9 @@ Since this can be used for anything that accepts search terms via URL parameter,
 
 pp=https://www.perplexity.ai/search?q={query}
 
-Other Info:
+In  [Settings], the defaults are configured: 
 
-- By default, CTRL-S is the command to open the search window. This conflicts with the "Save" shortcut on Windows devices, but it's the workflow I was accustomed to. You can change this in the INI file.
+- By default, CTRL-S is the command to open the search window. This conflicts with the "Save" shortcut on Windows devices, but it's the workflow I was accustomed to.
 
-- Also by default, the search engine is Duck Duck Go. You can change this by specifying the default keyword in the INI file.
+- Also by default, the search engine is Duck Duck Go. You can change this by specifying another keyword
 
