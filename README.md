@@ -3,9 +3,9 @@ Simple keystroke-initiated search tool that mimics the basic web search function
 
 Usage is simple:
 
-Install Autohotkey 2.0
-Place jeeves.ahk and jeeves.ini in the same folder
-Run right click on jeeves.ahk and run. 
+- Install Autohotkey 2.0
+- Place jeeves.ahk and jeeves.ini in the same folder
+- Run right click on jeeves.ahk and run. 
 
 Jeeves can run at startup by placing a shortcut to jeeves.ahk in the startup folder.
 
@@ -21,7 +21,9 @@ Since this can be used for anything that accepts search terms via URL parameter,
 
 pp=https://www.perplexity.ai/search?q={query}
 
-By default, CTRL-S is the command to open the search window. This conflicts with the "Save" shortcut on Windows devices, but it's the workflow I was accustomed to. You can change this in the INI file.
+Other Info:
 
-Also by default, the search engine is Duck Duck Go. You can change this by specifying the default keyword in the INI file.
+- By default, CTRL-S is the command to open the search window. This conflicts with the "Save" shortcut on Windows devices, but it's the workflow I was accustomed to. You can change this in the INI file.
+
+- Also by default, the search engine is Duck Duck Go. You can change this by specifying the default keyword in the INI file.
 
